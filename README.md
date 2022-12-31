@@ -3,7 +3,7 @@ My MySQL shell plugins
 
 Ths repo is a place holder for my mysql shell scripts.  
 
-# get_mts_balance.py 
+# mts_balance.py 
 
 ### Usage:
 
