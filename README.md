@@ -1,7 +1,7 @@
 # mysql_shell_plugins
 My MySQL shell plugins
 
-Ths repo is a place holder for my mysql shell scripts.  
+This repo is a place holder for my mysql shell scripts.  
 
 # mts_balance.py 
 
