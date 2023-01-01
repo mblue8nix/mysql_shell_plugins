@@ -23,7 +23,7 @@ EXAMPLE Usge:
 
 from blue import dbsize
 from blue import tblsize
-from blue import orient_db
+from blue import orient_yourself
 from blue import mts_balance
 from blue import empty_partitions
 from blue import statement_error
