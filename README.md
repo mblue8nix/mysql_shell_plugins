@@ -143,3 +143,25 @@ MySQL ssl JS > blue.getOriented()
  MySQL ssl JS >
  
  ```
+ 
+ 
+ ```
+  MySQL ssl JS > blue.getEmptyPartitions()
++--------------+------------+----------------+------------+----------------+-------------+
+| TABLE_SCHEMA | TABLE_NAME | PARTITION_NAME | TABLE_ROWS | AVG_ROW_LENGTH | DATA_LENGTH |
++--------------+------------+----------------+------------+----------------+-------------+
+| blue         | sessions   | p20221023      |          0 |              0 |  8031813632 |
+| blue         | sessions   | p20221030      |          0 |              0 |  8963080192 |
+| blue         | sessions   | p20221106      |          0 |              0 |  8489222144 |
+| blue         | sessions   | p20221113      |    8977952 |            884 |  7942651904 |
+| blue         | sessions   | p20221120      |    9160889 |            849 |  7780270080 |
+| blue         | sessions   | p20221127      |    9352507 |            895 |  8375812096 |
+| blue         | sessions   | p20221204      |    9921942 |            871 |  8648343552 |
+| blue         | sessions   | p20221211      |    9742944 |            852 |  8305623040 |
+| blue         | sessions   | p20221218      |   10121829 |            928 |  9394978816 |
+| blue         | sessions   | p20221225      |    9285077 |            877 |  8148320256 |
+| blue         | sessions   | p20230101      |          0 |              0 |       16384 |
+| blue         | sessions   | p20230108      |          0 |              0 |       16384 |
+| blue         | sessions   | p20230115      |          0 |              0 |       16384 |
+| blue         | sessions   | pmax           |          0 |              0 |       16384 |
+ ```
