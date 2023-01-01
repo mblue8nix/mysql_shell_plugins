@@ -1,5 +1,7 @@
 from mysqlsh.plugin_manager import plugin, plugin_function
 
+# Create a blue class for my mysql shell plugins.
+
 @plugin
 class blue:
     """
