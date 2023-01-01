@@ -144,6 +144,8 @@ MySQL ssl JS > blue.getOriented()
  
  ```
  
+ ## empty_partitions.py
+ ### Usage:
  
  ```
   MySQL ssl JS > blue.getEmptyPartitions()
