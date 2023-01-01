@@ -1,7 +1,13 @@
 # mysql_shell_plugins
 My MySQL shell plugins
 
-This repo is a place holder for my mysql shell scripts.  
+This repo is a place holder for my mysql shell plugin scripts.  
+These scripts get added to the mysql_shell_plugin directory. 
+MySQL's plugins can be found [here mysql_shell_plugins](https://github.com/lefred/mysqlshell-plugins)
+
+The scripts bellow are my own custom plugin I added for various reasons.
+
+These examples I would put these scripts in `mysqlshell-plugins/blue/` 
 
 # mts_balance.py 
 
