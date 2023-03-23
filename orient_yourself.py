@@ -172,5 +172,30 @@ FROM (
     """
 
     run_and_show(stmt)
+    
 
+    print("\n Connection Stats & Querries running:")
+    
+    stmt = """
+    SELECT @@max_connections;
+    SHOW STATUS
+    WHERE Variable_name = 'Threads_connected'
+    OR Variable_name = 'Threads_running';
+    
+    SELECT user,
+    db,
+    REPLACE(SUBSTRING(info, 1, 150), "\n", "") SQLT,
+    ROUND(AVG(time), 0) avg_time_secs,
+    COUNT(1) cnt
+    FROM information_schema.processlist
+    WHERE command <> 'Sleep'
+    AND INFO IS NOT NULL
+    GROUP BY user,
+    db,
+    SQLT
+    ORDER BY cnt DESC
+    LIMIT 10;
+    """
+    run_and_show(stmt)
+    
     return
